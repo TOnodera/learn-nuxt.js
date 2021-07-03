@@ -14,5 +14,10 @@
   "license": "ISC",
   "dependencies": {
     "nuxt": "^2.15.7"
+  },
+  "devDependencies": {
+    "eslint": "^7.30.0",
+    "eslint-plugin-vue": "^7.12.1",
+    "prettier": "^2.3.2"
   }
 }
