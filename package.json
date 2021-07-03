@@ -7,7 +7,8 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "generate": "nuxt generate",
-    "start": "nuxt start"
+    "start": "nuxt start",
+    "fmt": "prettier --write **/**.{js,vue}"
   },
   "keywords": [],
   "author": "",
