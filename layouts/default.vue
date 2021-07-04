@@ -4,7 +4,7 @@
             <v-list dense>
                 <v-list-item nuxt to="/">
                     <v-list-item-action>
-                        <v-icon>mdi-home</v-icon>
+                        <v-icon>fa-home</v-icon>
                     </v-list-item-action>
                     <v-list-item-content>
                         <v-list-item-title>Home</v-list-item-title>
@@ -34,9 +34,15 @@
             </v-container>
         </v-main>
         <v-footer color="indigo" app>
-            <span class="white--text"
-                >&copy; {{ new Date().getFullYear() }}</span
-            >
+            <v-container>
+                <v-row>
+                    <v-col cols="12" justify="center" class="text-center">
+                        <span class="white--text"
+                            >&copy; {{ new Date().getFullYear() }}</span
+                        >
+                    </v-col>
+                </v-row>
+            </v-container>
         </v-footer>
     </v-app>
 </template>
