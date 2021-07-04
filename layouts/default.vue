@@ -10,19 +10,19 @@
                         <v-list-item-title>Home</v-list-item-title>
                     </v-list-item-content>
                 </v-list-item>
-                <v-list-item nuxt to="/inspire">
+                <v-list-item nuxt to="/github">
                     <v-list-item-action>
-                        <v-icon>mdi-airballoon</v-icon>
+                        <v-icon>fa-github</v-icon>
                     </v-list-item-action>
                     <v-list-item-content>
-                        <v-list-item-title>Inspire</v-list-item-title>
+                        <v-list-item-title>github</v-list-item-title>
                     </v-list-item-content>
                 </v-list-item>
             </v-list>
         </v-navigation-drawer>
         <v-app-bar color="indigo" dark fixed app>
             <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
-            <v-toolbar-title>Application</v-toolbar-title>
+            <v-toolbar-title>giita</v-toolbar-title>
         </v-app-bar>
         <v-main>
             <v-container fluid fill-height>
