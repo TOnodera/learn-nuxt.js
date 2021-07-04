@@ -3,4 +3,7 @@ module.exports = {
         // Simple usage
         '@nuxtjs/vuetify',
     ],
+    vuetify: {
+        defaultAssets: { icons: 'fa' },
+    },
 };

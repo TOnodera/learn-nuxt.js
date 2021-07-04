@@ -12,7 +12,7 @@
                 </v-list-item>
                 <v-list-item nuxt to="/github">
                     <v-list-item-action>
-                        <v-icon>fa-github</v-icon>
+                        <v-icon>fa-code-branch</v-icon>
                     </v-list-item-action>
                     <v-list-item-content>
                         <v-list-item-title>github</v-list-item-title>
